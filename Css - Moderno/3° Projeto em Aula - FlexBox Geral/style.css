@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ce ta em row usa o colum gap / se ta em colum usa o row gap*/
+.container{
+  background-color: darkgray;
+  height: 100vh;
+  display: flex;
+  gap: 0px 15px;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+
+  /* flex-wrap: wrap; */
+}
+.item{
+  width: 100%;
+  height: 75px;
+  border: 1px solid black;
+  background-color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item1{
+  order: 2;
+  align-self:flex-end ;
+
+}
+.item2{
+  /* flex: 1 0 400px;  */
+  order: 3;
+
+}
+.item3{
+  order: 1;
+
+}
+@media (max-width:390px) {
+  .item2{
+  flex: 1 0 620px; 
+}
+}
+/* 
+flex-basis: 200px; DEFINI O TAMANHO GERAL DO ITEM
+  flex-grow: 1; SERVE PRA DEFINIR O ELEMENTO QUE TEM PREFERENCIA NA TELA
+  flex-shrink: 0; SERVE PRA DEFINIR PREFERENCIA NA DIMINUIÇÂO DOS ITEMS */
+  /* flex: 1 0 200px; CRIA E FIXA UM TAMANHO NO ITEM */

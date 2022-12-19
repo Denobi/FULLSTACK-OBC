@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrosel</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+  <!-- https://source.unsplash.com/random/?city,night -->
+  <div class="container ">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel mt-5  " style="width: 700px; margin: 0 auto;padding: 0;">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1000">
+          <img src="https://source.unsplash.com/random/?city,night" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://source.unsplash.com/random/?city" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="https://source.unsplash.com/random/?car" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel my-5" style="width: 700px; margin: 0 auto;padding: 0;">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://source.unsplash.com/random/?moon " class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://source.unsplash.com/random/?night " class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/random/?city,day " class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next </span>
+        </button>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel mb-5" style="width: 700px; margin: 0 auto;padding: 0;">
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" >
+      <div class="carousel-item active">
+              <img src="https://source.unsplash.com/random/?city,night" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+              <img src="https://source.unsplash.com/random/?city,night" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+              <img src="https://source.unsplash.com/random/?city,night" class="d-block w-100" alt="...">
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  </div>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+
+</html>

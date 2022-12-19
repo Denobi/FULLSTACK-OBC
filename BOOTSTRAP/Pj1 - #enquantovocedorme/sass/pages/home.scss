@@ -1,0 +1,292 @@
+.container-00{
+    &.container-01{
+        background-image: url('../imagens/Home/bg-img.jpg');
+        .navHover{
+            &:hover{
+                color: $text-hover;
+            }
+       }
+        .containerDestac{
+            height: 45vh;
+            // background-color: rgba(0, 0, 0, 0.527);
+            margin-top: 110px;
+            padding: 55px 30px;
+        
+           
+            .titlePage{
+                font-size: 100px;
+                font-weight: 600;
+            }
+            .subTitlePage{
+                font-size: 26px;
+                text-transform: uppercase;
+                width: 50%;
+                font-weight: 500;
+
+            }
+            .btnPlus{
+                margin-top: 20px;
+                padding: 10px 15px;
+                font-size: 22px;
+            }
+            .scrollArrow{
+                position: absolute;
+                display: inline-block;
+                height: 10vh;
+                width: auto;
+                 bottom: 0;
+                 margin-left: -100px;
+            }
+            
+        }
+    }
+    &.container-02{
+        
+ 
+        .carrossel-00{
+            // margin: 35px auto;
+            min-height: 100vh;
+           background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+        .carrossel-01{
+            background-image: url('../imagens/Home/car.jpg');
+        }
+        .carrossel-02{
+            background-image: url('../imagens/Home/car2.jpg');
+        }
+        .carrossel-03{
+            background-image: url('../imagens/Home/car4.jpg');
+        }
+        .containerDesc{
+            width: 400px;
+            margin-top: 13%;
+            margin-left: 5%;
+            .titleTable{
+                font-size: 96px;
+                font-weight: 600;
+                color: $text-destac;
+            }
+            .SubTitleTable{
+                font-size: 20px;
+            }
+            .tablesDesc{
+                color: white;
+                border-bottom: 1px solid white;
+                margin-top: 25px;
+                
+               
+            }
+            .tablesDescTitle{
+                font-size: 23px;
+                padding: 5px;
+            }
+            .tablesDescSubTitle{
+                font-size: 16px;
+                color: $text-destac;
+                font-weight: 600;
+            }
+        }
+    }
+    &.container-03{
+        // background-image: url('../imagens/Home/bgContainer3.jpg');
+        background-color: $bg-principal;
+        
+        .containerForm{
+            padding: 30px 20px;
+            height: 100vh;
+        }
+   
+        .formDesc{
+            margin-top: 100px;   
+            color:$text-destac;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .formDescTitle{
+                font-size: 100px;
+                font-weight: 500;
+            }
+            .formDescSubTitle{
+                font-size: 20px;
+                margin-bottom: -10px;
+            }
+            .btnSubcribe{
+                width: 300px;
+                font-size:29px;
+                color:$text-destac;
+                border: 1.5px solid $text-destac;
+                &:hover{
+                    background-color: $text-destac;
+                    color: $bg-principal;
+                    font-weight: 600;
+                }
+            }
+            &.formInputs{
+                text-align: left;
+               
+            }
+            
+        }
+        .destac,.text{
+         color: $text-destac;
+         font-size: 22px;
+         &::placeholder{
+            color: $text-destac;
+
+         }
+
+        }
+        .destacText{
+            text-transform: capitalize;
+        }
+        
+        .destacIcon{
+            font-size: 199px;
+            color: $text-destac;
+
+            
+        }
+    }
+}
+.footer{
+    width: 100%;
+    height: 15vh;
+    background-color: $bg-principal;
+    color: white;
+    .footerTitle{
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+    .footerSubTitle{
+        margin-bottom: -5px;
+        font-size: 16px;
+    }
+    .socialLink{
+        width: 420px;   
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        a{
+            text-decoration: none;
+            color: $text-destac;
+            &:hover{
+                padding-bottom: 5px;
+                border-bottom:  1px solid $text-destac;
+            }
+            
+        }
+        .iconSocial{
+            margin-right: 10px;
+        }
+    }
+}
+
+@media (max-width:780px){
+    .container-00{
+        
+        &.container-01{
+            .containerDestac{
+                margin-top: 20px;
+                
+            }
+        }
+        &.container-02{
+            .containerDesc{
+                margin-top: 25%;
+                margin-left: 5%;
+            }
+        }
+    }
+}
+@media(max-width:515px){
+    .container-00{
+        &.container-01{
+            .containerDestac{
+            
+                margin-left: 10px;
+
+                .titlePage{
+                    font-size: 50px;
+                    font-weight: 600;
+                }
+                .subTitlePage{
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    width: 50%;
+                    font-weight: 500;
+                    
+                }
+                .btnPlus{
+                    margin-top: 50px;
+                    padding: 10px 15px;
+                    font-size: 22px;
+                }
+                .scrollArrow{
+                    position: absolute;
+                    display: inline-block;
+                    height: 10vh;
+                    width: auto;
+                     bottom: 0;
+                     margin-left: -100px;
+                    }
+                    
+                }
+            }
+        
+        &.container-02{
+            .containerDesc{
+                width: 65%;
+                margin-top: 15%;
+                margin-left: 15%;
+                .titleTable{
+                    font-size: 76px;
+                    color: $text-destac;
+                }
+                .SubTitleTable{
+                    font-size: 15px;
+                }
+                .tablesDesc{
+                    margin-top: 20px;
+                    
+                   
+                }
+                .tablesDescTitle{
+                    font-size: 16px;
+      
+                }
+                .tablesDescSubTitle{
+                    font-size: 13px;
+                }
+            }
+        }
+        &.container-03{
+            .formDesc{
+           
+                .formDescTitle{
+                    font-size: 3rem;
+  
+                }
+                .formDescSubTitle{
+                    font-size: 10px;
+                    margin-bottom: 5px;
+                }
+                .btnSubcribe{
+                    width: 200px;
+                    font-size:19px;
+                    color:$text-destac;
+                    border: 1.5px solid $text-destac;
+                    &:hover{
+                        background-color: $text-destac;
+                        color: $bg-principal;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}

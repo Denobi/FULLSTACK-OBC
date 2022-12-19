@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+* {
+  color: white;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#navItem:hover {
+  color: #b9b9b9;
+}
+
+.container-00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logoPc {
+  width: 240px;
+  margin: 0 40px 0 -10px;
+}
+
+#button {
+  padding: 15px 35px;
+  border: 2px solid white;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+.emailOBC {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.emailOBC:hover {
+  color: #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copyDen {
+  color: #555252;
+}
+
+/*MEDIA QUERY*/
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 449px) {
+  .downloadDesc button {
+    margin: 10px 0px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.container-00.container-01 {
+  background-image: url("../images/home/01.jpg");
+}
+.container-00.container-02 {
+  background-image: url("../images/home/03.jpg");
+}
+.container-00.container-03 {
+  background-image: url("../images/home/02.gif");
+}
+.container-00.container-04 {
+  background-image: url("../images/home/04.jpg");
+}
+
+.titlePadding {
+  padding-top: 220px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: 25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
+@media (max-width: 380px) {
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 35px;
+  }
+}
+.container-00.container-05 {
+  background-image: url(../images/falcon9/01.jpg);
+}
+.container-00.container-06 {
+  background-image: url(../images/falcon9/02.jpg);
+}
+.container-00.carrossel01 {
+  background-image: url(../images/falcon9/03.jpg);
+}
+.container-00.carrossel02 {
+  background-image: url(../images/falcon9/04.jpg);
+}
+.container-00.carrossel03 {
+  background-image: url(../images/falcon9/05.jpg);
+}
+.container-00.carrossel04 {
+  background-image: url(../images/falcon9/06.jpg);
+}
+.container-00.carrossel05 {
+  background-image: url(../images/falcon9/07.jpg);
+}
+.container-00.container-07 {
+  background-image: url(../images/falcon9/08.jpg);
+}
+
+.titleFalcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.numbers .titleNumb {
+  font-size: 90px;
+}
+.numbers .subTitleNumb {
+  font-size: 20px;
+}
+
+.falcon9Desc {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#ovewViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .numbers .titleNumb {
+    font-size: 80px;
+  }
+  .numbers .subTitleNumb {
+    font-size: 17px;
+  }
+  .falcon9Desc {
+    width: auto;
+  }
+  #ovewViewPosition {
+    padding-top: 35%;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    background-color: black;
+    height: 60vh;
+  }
+  #ovewViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 55px;
+  }
+  .falcon9Desc {
+    line-height: auto;
+    font-size: 18px;
+  }
+  .subTitleFalcon {
+    font-size: 16px;
+  }
+}
+.container-00.container-08 {
+  background-image: url(../images/humanFlight/01.jpg);
+}
+.container-00.container-09 {
+  background-image: url(../images/humanFlight/02.jpg);
+}
+.container-00.container-10 {
+  background-image: url(../images/humanFlight/03.jpg);
+}
+.container-00.container-11 {
+  background-image: url(../images/humanFlight/04.jpg);
+}
+.container-00.container-12 {
+  background-image: url(../images/humanFlight/05.jpg);
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content .titleHuman {
+  font-size: 120px;
+}
+.container01Content .subTitleHuman {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.eartDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eartDesc .textDescEarth {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subTitleSection {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+@media (max-width: 768px) {
+  .container01Content .titleHuman {
+    font-size: 90px;
+  }
+  .container01Content img {
+    width: 150px;
+  }
+  .containerRightContent {
+    margin-left: 15%;
+  }
+  .containerLeftContent {
+    margin-left: 15%;
+  }
+  .eartDesc .textDescEarth {
+    font-size: 16px;
+    width: auto;
+  }
+}
+@media (max-width: 610px) {
+  .container01Content .titleHuman {
+    font-size: 60px;
+  }
+  .container01Content .subTitleHuman {
+    font-size: 24px;
+  }
+  .containerRightContent {
+    margin-left: 5%;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+  .titleSection {
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .container01Content .titleHuman {
+    font-size: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

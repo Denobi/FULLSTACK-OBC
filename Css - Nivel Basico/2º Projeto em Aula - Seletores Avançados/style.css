@@ -1,0 +1,25 @@
+/* SELETOR GERAL */
+/* *{
+  background-color: aquamarine;
+  border: 2px solid #fff;
+} */
+
+/* SELETOR DE DECENDENCIA */
+li a{
+  color: red;
+}
+/*SELETOR DE HERANÇA*/
+li>a{
+  color: red;
+}
+/*SELETOR DE DEPENDENCIA*/
+h1 + h4{
+  border: 2px dotted darkcyan;
+}
+/* SELETOR POR ATRIBUTO */
+a[href='/']{
+  color: aqua;
+}
+li:nth-of-type(2){
+  color: palevioletred;
+}

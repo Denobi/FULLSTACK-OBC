@@ -1,0 +1,28 @@
+/* body{
+  background-image: url('https://wallpaperaccess.com/download/4k-space-39607');
+ background-repeat: no-repeat;
+ background-size: cover;
+   background-color: #c9c9; 
+}
+li{
+  color: #0b6931;
+}
+h1{
+  font-size: 55px;
+  background-color: #ccc;
+}
+ul{
+  border: 3px solid yellow;
+} */
+
+.yellow-text{
+  color:yellow;
+  font-size: 20px;
+}
+.big-text{
+  font-size: 40px;
+}
+#europa-text{
+  font-size: 10px;
+  color: blue;
+}

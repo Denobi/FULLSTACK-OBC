@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+body {
+  color: white;
+}
+
+.navHeader a {
+  color: white;
+  font-size: 16px;
+}
+
+.container-00 {
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-00.container-01 {
+  background-image: url("../imagens/Home/bg-img.jpg");
+}
+.container-00.container-01 .navHover:hover {
+  color: #4f518c;
+}
+.container-00.container-01 .containerDestac {
+  height: 45vh;
+  margin-top: 110px;
+  padding: 55px 30px;
+}
+.container-00.container-01 .containerDestac .titlePage {
+  font-size: 100px;
+  font-weight: 600;
+}
+.container-00.container-01 .containerDestac .subTitlePage {
+  font-size: 26px;
+  text-transform: uppercase;
+  width: 50%;
+  font-weight: 500;
+}
+.container-00.container-01 .containerDestac .btnPlus {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 22px;
+}
+.container-00.container-01 .containerDestac .scrollArrow {
+  position: absolute;
+  display: inline-block;
+  height: 10vh;
+  width: auto;
+  bottom: 0;
+  margin-left: -100px;
+}
+.container-00.container-02 .carrossel-00 {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container-00.container-02 .carrossel-01 {
+  background-image: url("../imagens/Home/car.jpg");
+}
+.container-00.container-02 .carrossel-02 {
+  background-image: url("../imagens/Home/car2.jpg");
+}
+.container-00.container-02 .carrossel-03 {
+  background-image: url("../imagens/Home/car4.jpg");
+}
+.container-00.container-02 .containerDesc {
+  width: 400px;
+  margin-top: 13%;
+  margin-left: 5%;
+}
+.container-00.container-02 .containerDesc .titleTable {
+  font-size: 96px;
+  font-weight: 600;
+  color: #81f495;
+}
+.container-00.container-02 .containerDesc .SubTitleTable {
+  font-size: 20px;
+}
+.container-00.container-02 .containerDesc .tablesDesc {
+  color: white;
+  border-bottom: 1px solid white;
+  margin-top: 25px;
+}
+.container-00.container-02 .containerDesc .tablesDescTitle {
+  font-size: 23px;
+  padding: 5px;
+}
+.container-00.container-02 .containerDesc .tablesDescSubTitle {
+  font-size: 16px;
+  color: #81f495;
+  font-weight: 600;
+}
+.container-00.container-03 {
+  background-color: #000;
+}
+.container-00.container-03 .containerForm {
+  padding: 30px 20px;
+  height: 100vh;
+}
+.container-00.container-03 .formDesc {
+  margin-top: 100px;
+  color: #81f495;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-00.container-03 .formDesc .formDescTitle {
+  font-size: 100px;
+  font-weight: 500;
+}
+.container-00.container-03 .formDesc .formDescSubTitle {
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+.container-00.container-03 .formDesc .btnSubcribe {
+  width: 300px;
+  font-size: 29px;
+  color: #81f495;
+  border: 1.5px solid #81f495;
+}
+.container-00.container-03 .formDesc .btnSubcribe:hover {
+  background-color: #81f495;
+  color: #000;
+  font-weight: 600;
+}
+.container-00.container-03 .formDesc.formInputs {
+  text-align: left;
+}
+.container-00.container-03 .destac, .container-00.container-03 .text {
+  color: #81f495;
+  font-size: 22px;
+}
+.container-00.container-03 .destac::placeholder, .container-00.container-03 .text::placeholder {
+  color: #81f495;
+}
+.container-00.container-03 .destacText {
+  text-transform: capitalize;
+}
+.container-00.container-03 .destacIcon {
+  font-size: 199px;
+  color: #81f495;
+}
+
+.footer {
+  width: 100%;
+  height: 15vh;
+  background-color: #000;
+  color: white;
+}
+.footer .footerTitle {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.footer .footerSubTitle {
+  margin-bottom: -5px;
+  font-size: 16px;
+}
+.footer .socialLink {
+  width: 420px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.footer .socialLink a {
+  text-decoration: none;
+  color: #81f495;
+}
+.footer .socialLink a:hover {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #81f495;
+}
+.footer .socialLink .iconSocial {
+  margin-right: 10px;
+}
+
+@media (max-width: 780px) {
+  .container-00.container-01 .containerDestac {
+    margin-top: 20px;
+  }
+  .container-00.container-02 .containerDesc {
+    margin-top: 25%;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 515px) {
+  .container-00.container-01 .containerDestac {
+    margin-left: 10px;
+  }
+  .container-00.container-01 .containerDestac .titlePage {
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .container-00.container-01 .containerDestac .subTitlePage {
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 50%;
+    font-weight: 500;
+  }
+  .container-00.container-01 .containerDestac .btnPlus {
+    margin-top: 50px;
+    padding: 10px 15px;
+    font-size: 22px;
+  }
+  .container-00.container-01 .containerDestac .scrollArrow {
+    position: absolute;
+    display: inline-block;
+    height: 10vh;
+    width: auto;
+    bottom: 0;
+    margin-left: -100px;
+  }
+  .container-00.container-02 .containerDesc {
+    width: 65%;
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+  .container-00.container-02 .containerDesc .titleTable {
+    font-size: 76px;
+    color: #81f495;
+  }
+  .container-00.container-02 .containerDesc .SubTitleTable {
+    font-size: 15px;
+  }
+  .container-00.container-02 .containerDesc .tablesDesc {
+    margin-top: 20px;
+  }
+  .container-00.container-02 .containerDesc .tablesDescTitle {
+    font-size: 16px;
+  }
+  .container-00.container-02 .containerDesc .tablesDescSubTitle {
+    font-size: 13px;
+  }
+  .container-00.container-03 .formDesc .formDescTitle {
+    font-size: 3rem;
+  }
+  .container-00.container-03 .formDesc .formDescSubTitle {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .container-00.container-03 .formDesc .btnSubcribe {
+    width: 200px;
+    font-size: 19px;
+    color: #81f495;
+    border: 1.5px solid #81f495;
+  }
+  .container-00.container-03 .formDesc .btnSubcribe:hover {
+    background-color: #81f495;
+    color: #000;
+    font-weight: 600;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

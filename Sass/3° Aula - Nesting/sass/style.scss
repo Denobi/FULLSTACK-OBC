@@ -1,0 +1,22 @@
+
+.classe1{
+  ul{
+    background-color: red;
+  }
+  li{
+  background-color: blue;
+  padding: 15px 0;
+
+  }
+  button{
+    background-color: orangered;
+    width: 90px;
+    cursor: pointer;
+
+    &:hover{
+      transform: rotate(66deg);
+      background-color: aquamarine;
+      transition: all 200ms;
+    }
+  }
+}
